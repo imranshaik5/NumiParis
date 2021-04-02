@@ -1,0 +1,6 @@
+framework module Pods_NumiParis {
+  umbrella header "Pods-NumiParis-umbrella.h"
+
+  export *
+  module * { export * }
+}

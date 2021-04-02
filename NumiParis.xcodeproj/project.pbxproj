@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7819939A0B108FC658ABF69C /* Pods_NumiParis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C5A9B7C3758AA24FED305 /* Pods_NumiParis.framework */; };
+		B133108F2616FD1B009DCB95 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133108E2616FD1B009DCB95 /* UIView+Extension.swift */; };
+		B13310922616FD86009DCB95 /* Extension+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13310912616FD86009DCB95 /* Extension+CALayer.swift */; };
+		B1331099261719E2009DCB95 /* UpComingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1331098261719E2009DCB95 /* UpComingViewController.swift */; };
+		B133109D26171B1C009DCB95 /* UpcomingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133109C26171B1C009DCB95 /* UpcomingModel.swift */; };
+		B13310A026171C21009DCB95 /* UpComingMoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133109F26171C21009DCB95 /* UpComingMoviesViewModel.swift */; };
+		B1490D6B2615E26F004ECDEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490D6A2615E26F004ECDEA /* AppDelegate.swift */; };
+		B1490D6D2615E26F004ECDEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490D6C2615E26F004ECDEA /* SceneDelegate.swift */; };
+		B1490D6F2615E26F004ECDEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490D6E2615E26F004ECDEA /* ViewController.swift */; };
+		B1490D722615E26F004ECDEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1490D702615E26F004ECDEA /* Main.storyboard */; };
+		B1490D742615E273004ECDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1490D732615E273004ECDEA /* Assets.xcassets */; };
+		B1490D772615E273004ECDEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1490D752615E273004ECDEA /* LaunchScreen.storyboard */; };
+		B1490D8E2615E332004ECDEA /* MultipartdataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490D8D2615E332004ECDEA /* MultipartdataRequest.swift */; };
+		B1490D912615E38D004ECDEA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490D902615E38D004ECDEA /* Reachability.swift */; };
+		B1490D942615E3EA004ECDEA /* ApiLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490D932615E3EA004ECDEA /* ApiLists.swift */; };
+		B1490D972615E422004ECDEA /* ValidateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490D962615E422004ECDEA /* ValidateResponse.swift */; };
+		B1490D9A2615E448004ECDEA /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490D992615E448004ECDEA /* ApiRequest.swift */; };
+		B1490D9E2615E49E004ECDEA /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490D9D2615E49E004ECDEA /* KeychainManager.swift */; };
+		B1490DA22615E4CC004ECDEA /* KeychainKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490DA12615E4CC004ECDEA /* KeychainKeys.swift */; };
+		B1490DB02615E7BC004ECDEA /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490DAF2615E7BC004ECDEA /* TabbarViewController.swift */; };
+		B1490DB42615ED2A004ECDEA /* TopRatedMooviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490DB32615ED2A004ECDEA /* TopRatedMooviesViewController.swift */; };
+		B1490DB72615EDA8004ECDEA /* TopRatedMoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490DB62615EDA8004ECDEA /* TopRatedMoviesViewModel.swift */; };
+		B1490DBB2615EDD1004ECDEA /* TopRatedMoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490DB92615EDD1004ECDEA /* TopRatedMoviesTableViewCell.swift */; };
+		B1490DBC2615EDD1004ECDEA /* TopRatedMoviesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1490DBA2615EDD1004ECDEA /* TopRatedMoviesTableViewCell.xib */; };
+		B1490DBF2615FD27004ECDEA /* TopRatedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490DBE2615FD27004ECDEA /* TopRatedModel.swift */; };
+		B1490DC4261606E1004ECDEA /* Extension + UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490DC3261606E1004ECDEA /* Extension + UIImageView.swift */; };
+		B1490DC826160733004ECDEA /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490DC726160733004ECDEA /* Cache.swift */; };
+		B1490DCE261637ED004ECDEA /* OverViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1490DCD261637ED004ECDEA /* OverViewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6513380975A03A5F02F1AA1D /* Pods-NumiParis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumiParis.release.xcconfig"; path = "Target Support Files/Pods-NumiParis/Pods-NumiParis.release.xcconfig"; sourceTree = "<group>"; };
+		B133108E2616FD1B009DCB95 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B13310912616FD86009DCB95 /* Extension+CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+CALayer.swift"; sourceTree = "<group>"; };
+		B1331098261719E2009DCB95 /* UpComingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingViewController.swift; sourceTree = "<group>"; };
+		B133109C26171B1C009DCB95 /* UpcomingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingModel.swift; sourceTree = "<group>"; };
+		B133109F26171C21009DCB95 /* UpComingMoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingMoviesViewModel.swift; sourceTree = "<group>"; };
+		B1490D672615E26F004ECDEA /* NumiParis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumiParis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1490D6A2615E26F004ECDEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1490D6C2615E26F004ECDEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1490D6E2615E26F004ECDEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1490D712615E26F004ECDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1490D732615E273004ECDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1490D762615E273004ECDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1490D782615E273004ECDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1490D8D2615E332004ECDEA /* MultipartdataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartdataRequest.swift; sourceTree = "<group>"; };
+		B1490D902615E38D004ECDEA /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		B1490D932615E3EA004ECDEA /* ApiLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiLists.swift; sourceTree = "<group>"; };
+		B1490D962615E422004ECDEA /* ValidateResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateResponse.swift; sourceTree = "<group>"; };
+		B1490D992615E448004ECDEA /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		B1490D9D2615E49E004ECDEA /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		B1490DA12615E4CC004ECDEA /* KeychainKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainKeys.swift; sourceTree = "<group>"; };
+		B1490DAF2615E7BC004ECDEA /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		B1490DB32615ED2A004ECDEA /* TopRatedMooviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedMooviesViewController.swift; sourceTree = "<group>"; };
+		B1490DB62615EDA8004ECDEA /* TopRatedMoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedMoviesViewModel.swift; sourceTree = "<group>"; };
+		B1490DB92615EDD1004ECDEA /* TopRatedMoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedMoviesTableViewCell.swift; sourceTree = "<group>"; };
+		B1490DBA2615EDD1004ECDEA /* TopRatedMoviesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopRatedMoviesTableViewCell.xib; sourceTree = "<group>"; };
+		B1490DBE2615FD27004ECDEA /* TopRatedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedModel.swift; sourceTree = "<group>"; };
+		B1490DC3261606E1004ECDEA /* Extension + UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIImageView.swift"; sourceTree = "<group>"; };
+		B1490DC726160733004ECDEA /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		B1490DCD261637ED004ECDEA /* OverViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewViewController.swift; sourceTree = "<group>"; };
+		BD5C5A9B7C3758AA24FED305 /* Pods_NumiParis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumiParis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA863DDB2D78CC72743EFE74 /* Pods-NumiParis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumiParis.debug.xcconfig"; path = "Target Support Files/Pods-NumiParis/Pods-NumiParis.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1490D642615E26F004ECDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7819939A0B108FC658ABF69C /* Pods_NumiParis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0194F5BFA51563C1D17A85C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA863DDB2D78CC72743EFE74 /* Pods-NumiParis.debug.xcconfig */,
+				6513380975A03A5F02F1AA1D /* Pods-NumiParis.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2639378470729AC0A8966F28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C5A9B7C3758AA24FED305 /* Pods_NumiParis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B133109426171969009DCB95 /* UpComingMovies */ = {
+			isa = PBXGroup;
+			children = (
+				B133109726171995009DCB95 /* Model */,
+				B133109626171988009DCB95 /* ViewModel */,
+				B133109526171979009DCB95 /* View */,
+			);
+			path = UpComingMovies;
+			sourceTree = "<group>";
+		};
+		B133109526171979009DCB95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1331098261719E2009DCB95 /* UpComingViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B133109626171988009DCB95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B133109F26171C21009DCB95 /* UpComingMoviesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B133109726171995009DCB95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B133109C26171B1C009DCB95 /* UpcomingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1490D5E2615E26E004ECDEA = {
+			isa = PBXGroup;
+			children = (
+				B1490D692615E26F004ECDEA /* NumiParis */,
+				B1490D682615E26F004ECDEA /* Products */,
+				0194F5BFA51563C1D17A85C8 /* Pods */,
+				2639378470729AC0A8966F28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1490D682615E26F004ECDEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1490D672615E26F004ECDEA /* NumiParis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1490D692615E26F004ECDEA /* NumiParis */ = {
+			isa = PBXGroup;
+			children = (
+				B1490DC1261606B5004ECDEA /* Resource */,
+				B1490DA92615E771004ECDEA /* Source */,
+				B1490DA72615E571004ECDEA /* Storyboards */,
+				B1490D9C2615E47F004ECDEA /* KeychainManager */,
+				B1490D8C2615E2B6004ECDEA /* ApiManager */,
+				B1490D6A2615E26F004ECDEA /* AppDelegate.swift */,
+				B1490D6C2615E26F004ECDEA /* SceneDelegate.swift */,
+				B1490D6E2615E26F004ECDEA /* ViewController.swift */,
+				B1490D732615E273004ECDEA /* Assets.xcassets */,
+				B1490D752615E273004ECDEA /* LaunchScreen.storyboard */,
+				B1490D782615E273004ECDEA /* Info.plist */,
+			);
+			path = NumiParis;
+			sourceTree = "<group>";
+		};
+		B1490D8C2615E2B6004ECDEA /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				B1490D8D2615E332004ECDEA /* MultipartdataRequest.swift */,
+				B1490D902615E38D004ECDEA /* Reachability.swift */,
+				B1490D932615E3EA004ECDEA /* ApiLists.swift */,
+				B1490D962615E422004ECDEA /* ValidateResponse.swift */,
+				B1490D992615E448004ECDEA /* ApiRequest.swift */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		B1490D9C2615E47F004ECDEA /* KeychainManager */ = {
+			isa = PBXGroup;
+			children = (
+				B1490D9D2615E49E004ECDEA /* KeychainManager.swift */,
+				B1490DA12615E4CC004ECDEA /* KeychainKeys.swift */,
+			);
+			path = KeychainManager;
+			sourceTree = "<group>";
+		};
+		B1490DA72615E571004ECDEA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B1490D702615E26F004ECDEA /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B1490DA92615E771004ECDEA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B133109426171969009DCB95 /* UpComingMovies */,
+				B1490DAA2615E77B004ECDEA /* Home */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B1490DAA2615E77B004ECDEA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B1490DAD2615E792004ECDEA /* Model */,
+				B1490DAC2615E78A004ECDEA /* ViewModel */,
+				B1490DAB2615E783004ECDEA /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B1490DAB2615E783004ECDEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1490DAE2615E7A3004ECDEA /* Tabbar */,
+				B1490DB32615ED2A004ECDEA /* TopRatedMooviesViewController.swift */,
+				B1490DB92615EDD1004ECDEA /* TopRatedMoviesTableViewCell.swift */,
+				B1490DBA2615EDD1004ECDEA /* TopRatedMoviesTableViewCell.xib */,
+				B1490DCD261637ED004ECDEA /* OverViewViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1490DAC2615E78A004ECDEA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B1490DB62615EDA8004ECDEA /* TopRatedMoviesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B1490DAD2615E792004ECDEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1490DBE2615FD27004ECDEA /* TopRatedModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1490DAE2615E7A3004ECDEA /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				B1490DAF2615E7BC004ECDEA /* TabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		B1490DC1261606B5004ECDEA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B1490DC62616071A004ECDEA /* Helper */,
+				B1490DC2261606C1004ECDEA /* Extensions */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B1490DC2261606C1004ECDEA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B1490DC3261606E1004ECDEA /* Extension + UIImageView.swift */,
+				B133108E2616FD1B009DCB95 /* UIView+Extension.swift */,
+				B13310912616FD86009DCB95 /* Extension+CALayer.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B1490DC62616071A004ECDEA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B1490DC726160733004ECDEA /* Cache.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1490D662615E26F004ECDEA /* NumiParis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1490D7B2615E273004ECDEA /* Build configuration list for PBXNativeTarget "NumiParis" */;
+			buildPhases = (
+				EC0C6D5CD7EADF8771A707F2 /* [CP] Check Pods Manifest.lock */,
+				B1490D632615E26F004ECDEA /* Sources */,
+				B1490D642615E26F004ECDEA /* Frameworks */,
+				B1490D652615E26F004ECDEA /* Resources */,
+				56B50177D8A57A6B0AA6CA43 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumiParis;
+			productName = NumiParis;
+			productReference = B1490D672615E26F004ECDEA /* NumiParis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1490D5F2615E26E004ECDEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					B1490D662615E26F004ECDEA = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = B1490D622615E26E004ECDEA /* Build configuration list for PBXProject "NumiParis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1490D5E2615E26E004ECDEA;
+			productRefGroup = B1490D682615E26F004ECDEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1490D662615E26F004ECDEA /* NumiParis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1490D652615E26F004ECDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1490D772615E273004ECDEA /* LaunchScreen.storyboard in Resources */,
+				B1490DBC2615EDD1004ECDEA /* TopRatedMoviesTableViewCell.xib in Resources */,
+				B1490D742615E273004ECDEA /* Assets.xcassets in Resources */,
+				B1490D722615E26F004ECDEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56B50177D8A57A6B0AA6CA43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NumiParis/Pods-NumiParis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NumiParis/Pods-NumiParis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NumiParis/Pods-NumiParis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC0C6D5CD7EADF8771A707F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NumiParis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1490D632615E26F004ECDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1490DBF2615FD27004ECDEA /* TopRatedModel.swift in Sources */,
+				B1490D6F2615E26F004ECDEA /* ViewController.swift in Sources */,
+				B1490D6B2615E26F004ECDEA /* AppDelegate.swift in Sources */,
+				B133109D26171B1C009DCB95 /* UpcomingModel.swift in Sources */,
+				B1490DB42615ED2A004ECDEA /* TopRatedMooviesViewController.swift in Sources */,
+				B1490DC826160733004ECDEA /* Cache.swift in Sources */,
+				B1490DCE261637ED004ECDEA /* OverViewViewController.swift in Sources */,
+				B1490DBB2615EDD1004ECDEA /* TopRatedMoviesTableViewCell.swift in Sources */,
+				B1490DB02615E7BC004ECDEA /* TabbarViewController.swift in Sources */,
+				B1490D8E2615E332004ECDEA /* MultipartdataRequest.swift in Sources */,
+				B1490D912615E38D004ECDEA /* Reachability.swift in Sources */,
+				B1490D9E2615E49E004ECDEA /* KeychainManager.swift in Sources */,
+				B1490DA22615E4CC004ECDEA /* KeychainKeys.swift in Sources */,
+				B133108F2616FD1B009DCB95 /* UIView+Extension.swift in Sources */,
+				B1490DB72615EDA8004ECDEA /* TopRatedMoviesViewModel.swift in Sources */,
+				B1490D942615E3EA004ECDEA /* ApiLists.swift in Sources */,
+				B1490DC4261606E1004ECDEA /* Extension + UIImageView.swift in Sources */,
+				B1331099261719E2009DCB95 /* UpComingViewController.swift in Sources */,
+				B1490D6D2615E26F004ECDEA /* SceneDelegate.swift in Sources */,
+				B1490D9A2615E448004ECDEA /* ApiRequest.swift in Sources */,
+				B1490D972615E422004ECDEA /* ValidateResponse.swift in Sources */,
+				B13310922616FD86009DCB95 /* Extension+CALayer.swift in Sources */,
+				B13310A026171C21009DCB95 /* UpComingMoviesViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1490D702615E26F004ECDEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1490D712615E26F004ECDEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1490D752615E273004ECDEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1490D762615E273004ECDEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1490D792615E273004ECDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1490D7A2615E273004ECDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1490D7C2615E273004ECDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA863DDB2D78CC72743EFE74 /* Pods-NumiParis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NumiParis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranshaik.NumiParis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1490D7D2615E273004ECDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6513380975A03A5F02F1AA1D /* Pods-NumiParis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NumiParis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranshaik.NumiParis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1490D622615E26E004ECDEA /* Build configuration list for PBXProject "NumiParis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1490D792615E273004ECDEA /* Debug */,
+				B1490D7A2615E273004ECDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1490D7B2615E273004ECDEA /* Build configuration list for PBXNativeTarget "NumiParis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1490D7C2615E273004ECDEA /* Debug */,
+				B1490D7D2615E273004ECDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1490D5F2615E26E004ECDEA /* Project object */;
+}
